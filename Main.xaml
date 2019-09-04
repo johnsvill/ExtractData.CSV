@@ -74,13 +74,13 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="502,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Secuencia para llenar formulario&quot;]" />
-        <ui:OpenBrowser Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="502,1120" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://docs.google.com/forms/d/e/1FAIpQLSfV1Kbp_AiSU_LdTAXNsmZuOpZMm7pyMhItqaVAjxwrDBhxgQ/viewform">
+        <ui:OpenBrowser Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="502,1266" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://docs.google.com/forms/d/e/1FAIpQLSfV1Kbp_AiSU_LdTAXNsmZuOpZMm7pyMhItqaVAjxwrDBhxgQ/viewform">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,1021" sap2010:WorkflowViewState.IdRef="Sequence_1">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,1167" sap2010:WorkflowViewState.IdRef="Sequence_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -166,11 +166,11 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:ForEachRow>
+                <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'chrome.exe  Tutorial RPA'" sap:VirtualizedContainerService.HintSize="426,106" sap2010:WorkflowViewState.IdRef="CloseWindow_3" InformativeScreenshot="5951a8fecb36bab52a2d05f6e1153c6a" Selector="&lt;html app='chrome.exe' title='Tutorial RPA' /&gt;" WaitForReady="INTERACTIVE" />
               </Sequence>
             </ActivityAction>
           </ui:OpenBrowser.Body>
         </ui:OpenBrowser>
-        <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'chrome.exe  Tutorial RPA'" sap:VirtualizedContainerService.HintSize="502,106" sap2010:WorkflowViewState.IdRef="CloseWindow_3" InformativeScreenshot="5951a8fecb36bab52a2d05f6e1153c6a" Selector="&lt;html app='chrome.exe' title='Tutorial RPA' /&gt;" WaitForReady="INTERACTIVE" />
       </Sequence>
     </FlowStep>
     <FlowStep x:Name="__ReferenceID1">
